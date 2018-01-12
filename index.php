@@ -127,7 +127,7 @@ $str.="<p>".get_field('fetaj')."</p>";
 $str.="</div>";
 }
 
-set_transient( "block_feeds_{$tt}", $str, 1 * MINUTE_IN_SECONDS );
+set_transient( "block_feeds_{$tt}", $str, 5 * MINUTE_IN_SECONDS );
 
 //( 1 * MINUTE_IN_SECONDS )
 // Не забыть у константы MINUTE_IN_SECONDS поставить умножение на 60 *
