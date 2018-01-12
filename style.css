@@ -1,0 +1,33 @@
+/*
+Theme Name: unite-child
+Template: Unite
+
+Theme URI: http://colorlib.com/wp/unite
+Description: Дочернаяя тема для unite
+Author: Gofman Andrei
+Version: 1.0
+*/
+
+@import url("../unite/style.css");
+
+.block{
+	border:1px solid gray;
+	margin-bottom: 20px; padding: 5px 15px;
+	overflow: hidden;
+}
+.block h5{
+	font-size: 15px; color: #000;
+}
+.block img{
+	float: left;
+	margin-right:10px;
+}
+.filter{
+	margin-bottom: 40px;
+
+}
+.vmark select{
+	width: 100%;
+	min-width: 270px; 
+	padding: 10px 20px;
+}
